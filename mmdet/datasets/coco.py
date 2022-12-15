@@ -21,7 +21,7 @@ from .custom import CustomDataset
 
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
-    # num_classes : 12
+    # num_classes : 12 // class 변경
     CLASSES = ('dress', 'jumpsuite', 'cardigan', 'coat', 'jacket', 'jumper',
                'pants', 'skirt', 'blouse', 'shirt', 'sweater',
                't-shirt')
