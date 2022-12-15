@@ -21,10 +21,10 @@ from .custom import CustomDataset
 
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
-
+    # num_classes : 12
     CLASSES = ('dress', 'jumpsuite', 'cardigan', 'coat', 'jacket', 'jumper',
                'pants', 'skirt', 'blouse', 'shirt', 'sweater',
-               't-shirt',)
+               't-shirt')
 
     PALETTE = [(220, 20, 60), (119, 11, 32), (0, 0, 142), (0, 0, 230),
                (106, 0, 228), (0, 60, 100), (0, 80, 100), (0, 0, 70),
