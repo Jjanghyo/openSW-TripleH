@@ -44,7 +44,7 @@ model = dict(
             in_channels=256,
             fc_out_channels=1024,
             roi_feat_size=7,
-            #bbox_head class 개수 수정
+            # bbox_head class 개수 수정
             num_classes=12, 
             bbox_coder=dict(
                 type='DeltaXYWHBBoxCoder',
@@ -64,7 +64,7 @@ model = dict(
             num_convs=4,
             in_channels=256,
             conv_out_channels=256,
-            #mask_head class 개수 수정
+            # mask_head class 개수 수정
             num_classes=12, 
 
             loss_mask=dict(
