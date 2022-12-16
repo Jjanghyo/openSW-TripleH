@@ -30,3 +30,11 @@
 ```
     git clone https://github.com/Jjanghyo/openSW-TripleH.git
 ```
+### Team
+#### 김정효
+- 데이터셋 정리 및 train 수행
+#### 박소현
+- 클래스 분류
+- PPT 제작 및 보고서 작성
+#### 노승하
+- 데이터셋 정리 및 test 수행
